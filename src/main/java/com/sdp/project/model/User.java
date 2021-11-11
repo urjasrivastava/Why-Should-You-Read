@@ -10,7 +10,6 @@ import java.util.UUID;
 
 @Document(indexName = "blog_user")
 @Data
-@NoArgsConstructor
 public class User {
 
     @Id
